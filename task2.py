@@ -11,12 +11,12 @@ arr = [1,12,2,3,1,1,2,3,1,3,4,3,1,5,0,3,2,1,13,19,1,10,19,23,2,9,23,27,1,6,27,31
 i = 0
 while arr[i] != 99:
     if arr[i] == 1:
-        sum = arr[arr[i+1]] + arr[arr[i+2]]
-        arr[arr[i+3]] = sum
+        result = arr[arr[i+1]] + arr[arr[i+2]]
+        arr[arr[i+3]] = result
         i += 4
     elif arr[i] == 2:
-        sum = arr[arr[i+1]] * arr[arr[i+2]]
-        arr[arr[i+3]] = sum
+        result = arr[arr[i+1]] * arr[arr[i+2]]
+        arr[arr[i+3]] = result
         i += 4
     else:
         break
