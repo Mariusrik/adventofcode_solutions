@@ -1,5 +1,5 @@
 
-# 99 - program finnished
+# 99 - program finished
 # 1  - adds numbers (the two integers after the opcode describes where the numbers we want to add are located, the tird after says where we want to store it)
 # 2  - same as above just multiply
 # Once opcode is executed step 4
